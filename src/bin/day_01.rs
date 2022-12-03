@@ -1,10 +1,6 @@
 use std::fs;
 
 fn main() {
-    let s = fs::read_to_string("data/day_01.txt").unwrap();
-    for c in s.chars().take(100) {
-        println!("Char: {}", c);
-    }
     println!("{}", part1());
     println!("{}", part2());
 }
