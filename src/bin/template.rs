@@ -6,16 +6,16 @@ fn main() {
 }
 
 fn read_input() -> () {
-    let input = fs::read_to_string("data/day_01.txt").expect("File missing");
+    let _input = fs::read_to_string("data/day_01.txt").expect("File missing");
 }
 
 fn part1() -> u32 {
-    let input = read_input();
+    let _input = read_input();
     0
 }
 
 fn part2() -> u32 {
-    let input = read_input();
+    let _input = read_input();
     0
 }
 
