@@ -72,6 +72,6 @@ mod tests {
 
     #[test]
     fn test_part2() {
-        assert_eq!(part2(), 0);
+        assert_eq!(part2(), 938);
     }
 }
